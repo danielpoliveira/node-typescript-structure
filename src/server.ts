@@ -1,6 +1,7 @@
 const PORT = 3333;
 
 import express from 'express';
+import '@controllers/UserController';
 
 const app = express();
 
